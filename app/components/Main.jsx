@@ -4,9 +4,9 @@ const NavBar = require('NavBar');
 const Main = ({ children }) => {
   return (
     <div>
-      <div>
-        <div>
-          <NavBar/>
+      <NavBar/>
+      <div className="row">
+        <div className="column small-centered medium-6 large-4">
           {children}
         </div>
       </div>
