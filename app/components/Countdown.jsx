@@ -1,10 +1,11 @@
 const React = require('react');
+const Clock = require('Clock');
 
 const Countdown = React.createClass({
   render: function () {
     return (
       <div>
-        Countdown component
+        <Clock totalSeconds={257} />
       </div>
     );
   }
